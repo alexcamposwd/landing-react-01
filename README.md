@@ -1,4 +1,4 @@
-## <a href="#">Sistema de autenticação e autorização</a>
+## <a href="#">Landing Page - React</a>
 
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/alexcamposwd/landing-react-01/blob/main/LICENSE)
 
