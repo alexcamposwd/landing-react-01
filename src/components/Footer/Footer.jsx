@@ -1,7 +1,7 @@
 import React from 'react'
 import * as S from './styled'
 
-const Footer = () => {
+function Footer() {
   return (
     <S.FooterWrapper>
       <S.CopyRight data-cy='copyright'>

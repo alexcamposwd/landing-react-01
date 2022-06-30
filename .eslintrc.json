@@ -26,6 +26,13 @@
     "react/jsx-uses-vars": "error",
     "react/jsx-filename-extension": [0],
     "react/react-in-jsx-scope": 0,
+    "react/function-component-definition": [
+      0,
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ],
     "react/self-closing-comp": "error",
     "react/no-unescaped-entities": 0,
     "react/prop-types": "off",

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import * as S from './styled'
 
 import imgInitial from '../../assets/images/img01.jpg'
-import Form from '../../components/Form'
+import Form from '../Form'
 
 const Initials = () => {
   const [showModal, setShowModal] = useState(false)
@@ -33,7 +33,9 @@ const Initials = () => {
             </h4>
           </S.Info>
           <S.Btn>
-            <button onClick={openModal}>Agende com nossos consultores</button>
+            <button type='submit' onClick={openModal}>
+              Agende com nossos consultores
+            </button>
           </S.Btn>
         </S.Promo>
       </article>

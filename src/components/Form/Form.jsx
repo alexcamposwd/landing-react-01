@@ -1,4 +1,5 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable react/jsx-no-useless-fragment */
+/* eslint-disable no-use-before-define */
 import React, { useState, useEffect } from 'react'
 import * as S from './styled'
 

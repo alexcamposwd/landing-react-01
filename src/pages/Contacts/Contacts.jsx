@@ -11,7 +11,9 @@ const Contacts = () => {
   return (
     <S.ContactsWrapper>
       <S.FieldImg>
-        <button onClick={openModal}>Agende com nossos consultores</button>
+        <button type='submit' onClick={openModal}>
+          Agende com nossos consultores
+        </button>
       </S.FieldImg>
       <S.FieldContacts>
         <p>(11) 98888-8888</p>
