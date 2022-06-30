@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { ThemeProvider } from 'styled-components'
+
+import GlobalStyle from './styles/global'
+import colors from './styles/themes/variables'
+
+import Home from './pages/Home'
+import Informations from './pages/Informations'
+import Project from './pages/Project/Project'
+import Description from './pages/Description/Description'
+import Contacts from './pages/Contacts/Contacts'
+import Footer from './components/Footer/Footer'
+import Form from './components/Form/Form'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <ThemeProvider theme={colors}>
+      <Home />
+      <Informations />
+      <Project />
+      <Description />
+      <Contacts />
+      <Form />
+      <Footer />
+      <GlobalStyle />
+      <ScrollToTop />
+    </ThemeProvider>
+  )
 }
 
-export default App;
+export default App
