@@ -4,7 +4,7 @@
 
 ### Portfólio.
 
-Projeto de um modelo de Landing Page em react.
+Projeto de um template de Landing Page em react.
 Utilizado Docker, React.js, etc.
 A página é de apresentação de um produto específico com informações e imagens;
 E para contato o usuário poderá enviar os dados e mensagem através do formulário;
