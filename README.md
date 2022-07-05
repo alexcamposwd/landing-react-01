@@ -21,6 +21,8 @@ E para contato o usuário poderá enviar os dados e mensagem através do formul�
 - Deploy Netlify.
 - O projeto foi editado no Visual Studio Code.
 
+![Mockup_Landing_v2-1](https://user-images.githubusercontent.com/81717487/177393618-9634889c-c37a-4855-bd17-4821be7a1f4e.jpg)
+
 ## [Demo](https://landing-react-01.netlify.app/)
 
 ### License/Licença do Projeto
